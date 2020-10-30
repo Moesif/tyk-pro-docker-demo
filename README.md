@@ -1,3 +1,16 @@
+## Tyk with Moesif
+
+# How to use 
+
+Clone this repo and update `conf/pump.conf` to replace your moesif application Id.
+
+Your Moesif Application Id can be found in the [_Moesif Portal_](https://www.moesif.com/).
+After signing up for a Moesif account, your Moesif Application Id will be displayed during the onboarding steps. 
+
+You can always find your Moesif Application Id at any time by logging 
+into the [_Moesif Portal_](https://www.moesif.com/), click on the top right menu,
+and then clicking _API Keys_.
+
 # This demo is NOT designed for production use or performance testing
 Tyk API Gateway is fully on-premise solution, which include gateway, dashboard and analytics processing pipeline.
 This demo will run Tyk On-premise on your machine, which contains 5 containers: Tyk Gateway, Tyk Dashboard, Tyk Pump, Redis and Mongodb.
